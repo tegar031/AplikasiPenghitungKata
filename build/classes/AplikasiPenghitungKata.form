@@ -65,20 +65,15 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="kalimatLabel" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
-                              <Component id="kataLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="hasilPencarianLabel" alignment="0" min="-2" pref="102" max="-2" attributes="0"/>
-                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="otomatisRadioButton" min="-2" pref="116" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="kalimatLabel" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="kataLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="otomatisRadioButton" alignment="1" min="-2" pref="116" max="-2" attributes="0"/>
+                          <Component id="hasilPencarianLabel" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel1" min="-2" pref="167" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -245,6 +240,9 @@
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="46" green="32" red="32" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value="Masukkan kata yang ingin dicari"/>
           </Properties>
